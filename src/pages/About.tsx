@@ -10,12 +10,12 @@ const About: React.FC = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8" style={{background: 'linear-gradient(135deg, #36ac43 0%, #ffffff 100%)'}}>
+      <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8" style={{background: ' #000000'}}>
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{color: '#000000'}}>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{color: '#ffffff'}}>
             About Drivelectric
           </h1>
-          <p className="text-xl mb-8" style={{color: '#000000'}}>
+          <p className="text-xl mb-8" style={{color: '#ffffff'}}>
             Pioneering Electric Mobility in Kenya Since 2010
           </p>
         </div>
@@ -50,9 +50,9 @@ const About: React.FC = () => {
       <section className="py-16 px-4 sm:px-6 lg:px-8" style={{backgroundColor: '#f8f9fa'}}>
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="text-center border" style={{borderColor: '#36ac43'}}>
+            <Card className="text-center border" style={{borderColor: '#000000'}}>
               <CardContent className="p-8">
-                <div className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center" style={{backgroundColor: '#36ac43'}}>
+                <div className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center" style={{backgroundColor: '#000000'}}>
                   <Target className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4" style={{color: '#000000'}}>Our Mission</h3>
@@ -63,9 +63,9 @@ const About: React.FC = () => {
               </CardContent>
             </Card>
             
-            <Card className="text-center border" style={{borderColor: '#36ac43'}}>
+            <Card className="text-center border" style={{borderColor: '#000000'}}>
               <CardContent className="p-8">
-                <div className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center" style={{backgroundColor: '#36ac43'}}>
+                <div className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center" style={{backgroundColor: '#000000'}}>
                   <Eye className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4" style={{color: '#000000'}}>Our Vision</h3>
@@ -76,9 +76,9 @@ const About: React.FC = () => {
               </CardContent>
             </Card>
             
-            <Card className="text-center border" style={{borderColor: '#36ac43'}}>
+            <Card className="text-center border" style={{borderColor: '#000000'}}>
               <CardContent className="p-8">
-                <div className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center" style={{backgroundColor: '#36ac43'}}>
+                <div className="w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center" style={{backgroundColor: '#000000'}}>
                   <Award className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4" style={{color: '#000000'}}>Our Values</h3>
@@ -100,13 +100,13 @@ const About: React.FC = () => {
           </h2>
           <div className="grid md:grid-cols-2 gap-8 text-left">
             <div>
-              <h3 className="text-xl font-semibold mb-4" style={{color: '#36ac43'}}>Environmental Leadership</h3>
+              <h3 className="text-xl font-semibold mb-4" style={{color: '#000000'}}>Environmental Leadership</h3>
               <p className="mb-6" style={{color: '#000000'}}>
                 We're committed to reducing Kenya's carbon footprint by promoting zero-emission vehicles 
                 and supporting renewable energy charging solutions.
               </p>
               
-              <h3 className="text-xl font-semibold mb-4" style={{color: '#36ac43'}}>Economic Impact</h3>
+              <h3 className="text-xl font-semibold mb-4" style={{color: '#000000'}}>Economic Impact</h3>
               <p style={{color: '#000000'}}>
                 By reducing dependence on imported fuel and creating local jobs in the green economy, 
                 we contribute to Kenya's economic growth and energy independence.
@@ -114,13 +114,13 @@ const About: React.FC = () => {
             </div>
             
             <div>
-              <h3 className="text-xl font-semibold mb-4" style={{color: '#36ac43'}}>Community Development</h3>
+              <h3 className="text-xl font-semibold mb-4" style={{color: '#00000'}}>Community Development</h3>
               <p className="mb-6" style={{color: '#000000'}}>
                 We actively support local communities through education programs about sustainable transportation 
                 and partnerships with local businesses and institutions.
               </p>
               
-              <h3 className="text-xl font-semibold mb-4" style={{color: '#36ac43'}}>Innovation Hub</h3>
+              <h3 className="text-xl font-semibold mb-4" style={{color: '#000000'}}>Innovation Hub</h3>
               <p style={{color: '#000000'}}>
                 As pioneers in Kenya's EV market, we continue to innovate and adapt solutions 
                 that meet the unique needs of African consumers and infrastructure.

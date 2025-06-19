@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
             <img 
-              src="https://d64gsuwffb70l.cloudfront.net/684fb66c73bee6d835ce6ff2_1750157130648_52098674.png" 
+              src="https://drivezeewebsite.blob.core.windows.net/deaccesssconta/delogo.png" 
               alt="Drivelectric" 
               className="h-12 w-auto mb-4 filter invert dark:invert-0"
             />
@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-gray-800 dark:border-gray-200 mt-8 pt-8 text-center">
           <p className="text-gray-400 dark:text-gray-600">
-            © 2024 Drivelectric. All rights reserved.
+            © 2025 Drivelectric. All rights reserved.
           </p>
         </div>
       </div>

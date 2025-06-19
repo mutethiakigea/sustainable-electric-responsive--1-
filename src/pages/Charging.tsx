@@ -11,12 +11,12 @@ const Charging: React.FC = () => {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8" style={{background: 'linear-gradient(135deg, #36ac43 0%, #ffffff 100%)'}}>
+      <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8" style={{background: '#000000'}}>
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{color: '#000000'}}>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6" style={{color: '#ffffff'}}>
             EV Charging Solutions
           </h1>
-          <p className="text-xl mb-8" style={{color: '#000000'}}>
+          <p className="text-xl mb-8" style={{color: '#ffffff'}}>
             Professional Charger Installations & Public Charging Network
           </p>
         </div>
@@ -29,9 +29,9 @@ const Charging: React.FC = () => {
             Our Charging Services
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="text-center border" style={{borderColor: '#36ac43'}}>
+            <Card className="text-center border" style={{borderColor: '#000000'}}>
               <CardContent className="p-6">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style={{backgroundColor: '#36ac43'}}>
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style={{backgroundColor: '#000000'}}>
                   <Home className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2" style={{color: '#000000'}}>Home Installation</h3>
@@ -39,9 +39,9 @@ const Charging: React.FC = () => {
               </CardContent>
             </Card>
             
-            <Card className="text-center border" style={{borderColor: '#36ac43'}}>
+            <Card className="text-center border" style={{borderColor: '#000000'}}>
               <CardContent className="p-6">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style={{backgroundColor: '#36ac43'}}>
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style={{backgroundColor: '#000000'}}>
                   <Zap className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2" style={{color: '#000000'}}>Fast Charging</h3>
@@ -49,9 +49,9 @@ const Charging: React.FC = () => {
               </CardContent>
             </Card>
             
-            <Card className="text-center border" style={{borderColor: '#36ac43'}}>
+            <Card className="text-center border" style={{borderColor: '#000000'}}>
               <CardContent className="p-6">
-                <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style={{backgroundColor: '#36ac43'}}>
+                <div className="w-16 h-16 mx-auto mb-4 rounded-full flex items-center justify-center" style={{backgroundColor: '#000000'}}>
                   <MapPin className="h-8 w-8 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold mb-2" style={{color: '#000000'}}>Public Network</h3>
@@ -69,10 +69,10 @@ const Charging: React.FC = () => {
             Charging Solutions We Offer
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="border" style={{borderColor: '#36ac43'}}>
+            <Card className="border" style={{borderColor: '#000000'}}>
               <CardContent className="p-8">
                 <div className="flex items-center mb-4">
-                  <Battery className="h-8 w-8 mr-3" style={{color: '#36ac43'}} />
+                  <Battery className="h-8 w-8 mr-3" style={{color: '#000000'}} />
                   <h3 className="text-2xl font-bold" style={{color: '#000000'}}>Level 2 AC Chargers</h3>
                 </div>
                 <ul className="space-y-2" style={{color: '#000000'}}>
@@ -85,10 +85,10 @@ const Charging: React.FC = () => {
               </CardContent>
             </Card>
             
-            <Card className="border" style={{borderColor: '#36ac43'}}>
+            <Card className="border" style={{borderColor: '#000000'}}>
               <CardContent className="p-8">
                 <div className="flex items-center mb-4">
-                  <Zap className="h-8 w-8 mr-3" style={{color: '#36ac43'}} />
+                  <Zap className="h-8 w-8 mr-3" style={{color: '#000000'}} />
                   <h3 className="text-2xl font-bold" style={{color: '#000000'}}>DC Fast Chargers</h3>
                 </div>
                 <ul className="space-y-2" style={{color: '#000000'}}>
@@ -117,17 +117,17 @@ const Charging: React.FC = () => {
           
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="text-center">
-              <Clock className="h-12 w-12 mx-auto mb-2" style={{color: '#36ac43'}} />
+              <Clock className="h-12 w-12 mx-auto mb-2" style={{color: '#000000'}} />
               <h3 className="font-semibold mb-1" style={{color: '#000000'}}>24/7 Access</h3>
               <p className="text-sm" style={{color: '#000000'}}>Available round the clock</p>
             </div>
             <div className="text-center">
-              <Shield className="h-12 w-12 mx-auto mb-2" style={{color: '#36ac43'}} />
+              <Shield className="h-12 w-12 mx-auto mb-2" style={{color: '#000000'}} />
               <h3 className="font-semibold mb-1" style={{color: '#000000'}}>Secure & Safe</h3>
               <p className="text-sm" style={{color: '#000000'}}>Well-lit and monitored locations</p>
             </div>
             <div className="text-center">
-              <MapPin className="h-12 w-12 mx-auto mb-2" style={{color: '#36ac43'}} />
+              <MapPin className="h-12 w-12 mx-auto mb-2" style={{color: '#000000'}} />
               <h3 className="font-semibold mb-1" style={{color: '#000000'}}>Prime Locations</h3>
               <p className="text-sm" style={{color: '#000000'}}>Malls, offices, and key destinations</p>
             </div>
@@ -141,7 +141,7 @@ const Charging: React.FC = () => {
           <Button 
             size="lg" 
             className="text-white font-semibold px-8 py-3 hover:opacity-90 transition-opacity"
-            style={{backgroundColor: '#36ac43'}}
+            style={{backgroundColor: '#000000'}}
           >
             Find Charging Stations
           </Button>
