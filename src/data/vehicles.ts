@@ -21,7 +21,7 @@ export const vehicles: Vehicle[] = [
   {
     id: 'mg4',
     name: 'MG4',
-    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/MG4 (1).png',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/MG4-Electric-1.jpg',
     range: '350-450 km',
     battery: '51-64 kWh',
     price: 'From $25,000',
@@ -39,7 +39,7 @@ export const vehicles: Vehicle[] = [
   {
     id: 'nissan-leaf',
     name: 'Nissan Leaf',
-    image: 'https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&h=600&fit=crop',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/ogi1-2019-nissan-leaf-plus-001.jpg',
     range: '243 km',
     battery: '40 kWh',
     price: '$6,320 – $11,372',
@@ -57,7 +57,7 @@ export const vehicles: Vehicle[] = [
   {
     id: 'tesla-model-3',
     name: 'Tesla Model 3',
-    image: 'https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800&h=600&fit=crop',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/tesla-model-3.jpg',
     range: '491 km',
     battery: '75 kWh',
     price: 'From $35,000',
@@ -74,13 +74,13 @@ export const vehicles: Vehicle[] = [
   },
   {
     id: 'bmw-i3',
-    name: 'BMW i3',
-    image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=600&fit=crop',
+    name: 'MG ZS EV',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/ZS-EV-223_candy-white_feffff.jpg',
     range: '260 km',
     battery: '42.2 kWh',
     price: 'From $28,000',
-    year: '2018',
-    description: 'The BMW i3 showcases innovative design and sustainable materials in a compact luxury package. Built with carbon fiber and renewable materials, it offers a unique driving experience with BMW\'s signature performance and premium comfort.',
+    year: '2024',
+    description: 'The MG ZS EV showcases innovative design and sustainable materials in a compact luxury package. Built with carbon fiber and renewable materials, it offers a unique driving experience with BMW\'s signature performance and premium comfort.',
     features: ['Carbon Fiber Body', 'Sustainable Materials', 'BMW ConnectedDrive', 'Rear-Hinged Doors', 'Adaptive LED Lights', 'Harman Kardon Audio'],
     specs: {
       acceleration: '0-100 km/h in 7.3s',
@@ -92,13 +92,13 @@ export const vehicles: Vehicle[] = [
   },
   {
     id: 'hyundai-kona',
-    name: 'Hyundai Kona Electric',
-    image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=800&h=600&fit=crop',
+    name: 'Renault Kangoo ZE',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/kangoo.png',
     range: '415 km',
     battery: '64 kWh',
     price: 'From $32,000',
-    year: '2018',
-    description: 'The Hyundai Kona Electric combines SUV versatility with electric efficiency. Perfect for families who need space and range without compromising on environmental responsibility. Its bold design and advanced features make it ideal for both city and highway driving.',
+    year: '2022',
+    description: 'The Renault Kangoo ZE combines SUV versatility with electric efficiency. Perfect for families who need space and range without compromising on environmental responsibility. Its bold design and advanced features make it ideal for both city and highway driving.',
     features: ['All-Weather Capability', 'Wireless Charging Pad', 'Head-Up Display', 'Smart Cruise Control', 'Lane Keep Assist', 'Blind Spot Monitoring'],
     specs: {
       acceleration: '0-100 km/h in 7.6s',
@@ -110,13 +110,13 @@ export const vehicles: Vehicle[] = [
   },
   {
     id: 'volkswagen-id4',
-    name: 'Volkswagen ID.4',
-    image: 'https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&h=600&fit=crop',
+    name: 'Renault Zoe',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/Renault Zoe.jpg',
     range: '400 km',
     battery: '77 kWh',
     price: 'From $38,000',
     year: '2018',
-    description: 'The Volkswagen ID.4 represents German engineering excellence in electric mobility. This spacious SUV offers premium comfort, advanced technology, and impressive range, making it perfect for families transitioning to electric vehicles.',
+    description: 'The Renault Zoe represents German engineering excellence in electric mobility. This spacious SUV offers premium comfort, advanced technology, and impressive range, making it perfect for families transitioning to electric vehicles.',
     features: ['ID.Light LED Strip', 'Augmented Reality HUD', 'Travel Assist', 'IQ.Drive Safety', 'Wireless App Connect', 'Three-Zone Climate'],
     specs: {
       acceleration: '0-100 km/h in 8.5s',
@@ -128,18 +128,36 @@ export const vehicles: Vehicle[] = [
   },
   {
     id: 'audi-etron',
-    name: 'Audi e-tron',
-    image: 'https://images.unsplash.com/photo-1606016159991-8b4d3c1a8e84?w=800&h=600&fit=crop',
+    name: 'Renault Zoe',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/Renault Zoe.jpg',
     range: '436 km',
     battery: '95 kWh',
     price: 'From $65,000',
-    year: '2018',
-    description: 'The Audi e-tron delivers luxury and performance in an all-electric SUV package. With quattro all-wheel drive and premium Audi craftsmanship, it offers an uncompromising electric driving experience for discerning customers.',
+    year: '2022',
+    description: 'The Renault Zoe delivers luxury and performance in an all-electric SUV package. With quattro all-wheel drive and premium Audi craftsmanship, it offers an uncompromising electric driving experience for discerning customers.',
     features: ['Virtual Cockpit Plus', 'Matrix LED Headlights', 'Air Suspension', 'Bang & Olufsen Audio', 'MMI Touch Response', 'Audi Connect'],
     specs: {
       acceleration: '0-100 km/h in 5.7s',
       topSpeed: '200 km/h',
       chargingTime: '30 min (10-80%)',
+      seating: '5 passengers',
+      driveType: 'AWD'
+    }
+  },
+  {
+    id: 'polestar-2',
+    name: 'Polestar 2',
+    image: 'https://images.unsplash.com/photo-1617886903355-9354bb57751f?w=800&h=600&fit=crop',
+    range: '470 km',
+    battery: '78 kWh',
+    price: 'From $45,000',
+    year: '2018',
+    description: 'The Polestar 2 combines Scandinavian design with cutting-edge electric technology. This premium fastback offers exceptional performance, advanced Google-based infotainment, and sustainable luxury materials.',
+    features: ['Google Built-in', 'Pilot Assist', 'Harman Kardon Audio', 'Panoramic Roof', 'Pixel LED Headlights', 'Vegan Interior Options'],
+    specs: {
+      acceleration: '0-100 km/h in 4.7s',
+      topSpeed: '205 km/h',
+      chargingTime: '35 min (10-80%)',
       seating: '5 passengers',
       driveType: 'AWD'
     }
