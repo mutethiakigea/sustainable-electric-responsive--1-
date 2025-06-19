@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <img 
               src="https://drivezeewebsite.blob.core.windows.net/deaccesssconta/delogo.png" 
               alt="Drivelectric" 
-              className="h-12 w-auto mb-4 filter invert dark:invert-0"
+              className="h-28 w-auto mb-4"
             />
             <p className="text-gray-300 dark:text-gray-700 mb-4">
               Leading the electric vehicle revolution in Kenya with premium, sustainable transportation solutions.

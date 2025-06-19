@@ -25,9 +25,9 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="https://d64gsuwffb70l.cloudfront.net/684fb66c73bee6d835ce6ff2_1750157130648_52098674.png" 
+              src="https://drivezeewebsite.blob.core.windows.net/deaccesssconta/drivelectric black andwhite.png" 
               alt="Drivelectric" 
-              className="h-10 w-auto filter dark:invert"
+              className="h-28 w-auto"
             />
           </Link>
           

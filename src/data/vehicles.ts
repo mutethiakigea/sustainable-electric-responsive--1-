@@ -21,10 +21,11 @@ export const vehicles: Vehicle[] = [
   {
     id: 'mg4',
     name: 'MG4',
-    image: 'https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=800&h=600&fit=crop',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/MG4 (1).png',
     range: '350-450 km',
     battery: '51-64 kWh',
     price: 'From $25,000',
+    year: '2024',
     description: 'The MG4 is a revolutionary compact electric hatchback that redefines urban mobility. With its sleek aerodynamic design and cutting-edge technology, it delivers exceptional performance while maintaining zero emissions. Perfect for navigating Kenyan cities with style and efficiency.',
     features: ['Fast Charging', 'Smart Connectivity', 'Advanced Safety Systems', 'Spacious Interior', 'Regenerative Braking', 'Digital Dashboard', 'Wireless Phone Charging'],
     specs: {
@@ -60,6 +61,7 @@ export const vehicles: Vehicle[] = [
     range: '491 km',
     battery: '75 kWh',
     price: 'From $35,000',
+    year: '2018',
     description: 'The Tesla Model 3 represents the pinnacle of electric vehicle innovation. With industry-leading range, performance, and autonomous driving capabilities, it sets the standard for premium electric sedans. Experience the future of driving with unmatched technology and luxury.',
     features: ['Autopilot', 'Over-the-Air Updates', 'Supercharging Network', 'Premium Audio', 'Glass Roof', 'Mobile Connector', 'Sentry Mode'],
     specs: {
@@ -77,6 +79,7 @@ export const vehicles: Vehicle[] = [
     range: '260 km',
     battery: '42.2 kWh',
     price: 'From $28,000',
+    year: '2018',
     description: 'The BMW i3 showcases innovative design and sustainable materials in a compact luxury package. Built with carbon fiber and renewable materials, it offers a unique driving experience with BMW\'s signature performance and premium comfort.',
     features: ['Carbon Fiber Body', 'Sustainable Materials', 'BMW ConnectedDrive', 'Rear-Hinged Doors', 'Adaptive LED Lights', 'Harman Kardon Audio'],
     specs: {
@@ -94,6 +97,7 @@ export const vehicles: Vehicle[] = [
     range: '415 km',
     battery: '64 kWh',
     price: 'From $32,000',
+    year: '2018',
     description: 'The Hyundai Kona Electric combines SUV versatility with electric efficiency. Perfect for families who need space and range without compromising on environmental responsibility. Its bold design and advanced features make it ideal for both city and highway driving.',
     features: ['All-Weather Capability', 'Wireless Charging Pad', 'Head-Up Display', 'Smart Cruise Control', 'Lane Keep Assist', 'Blind Spot Monitoring'],
     specs: {
@@ -111,6 +115,7 @@ export const vehicles: Vehicle[] = [
     range: '400 km',
     battery: '77 kWh',
     price: 'From $38,000',
+    year: '2018',
     description: 'The Volkswagen ID.4 represents German engineering excellence in electric mobility. This spacious SUV offers premium comfort, advanced technology, and impressive range, making it perfect for families transitioning to electric vehicles.',
     features: ['ID.Light LED Strip', 'Augmented Reality HUD', 'Travel Assist', 'IQ.Drive Safety', 'Wireless App Connect', 'Three-Zone Climate'],
     specs: {
@@ -128,6 +133,7 @@ export const vehicles: Vehicle[] = [
     range: '436 km',
     battery: '95 kWh',
     price: 'From $65,000',
+    year: '2018',
     description: 'The Audi e-tron delivers luxury and performance in an all-electric SUV package. With quattro all-wheel drive and premium Audi craftsmanship, it offers an uncompromising electric driving experience for discerning customers.',
     features: ['Virtual Cockpit Plus', 'Matrix LED Headlights', 'Air Suspension', 'Bang & Olufsen Audio', 'MMI Touch Response', 'Audi Connect'],
     specs: {
@@ -145,6 +151,7 @@ export const vehicles: Vehicle[] = [
     range: '470 km',
     battery: '78 kWh',
     price: 'From $45,000',
+    year: '2018',
     description: 'The Polestar 2 combines Scandinavian design with cutting-edge electric technology. This premium fastback offers exceptional performance, advanced Google-based infotainment, and sustainable luxury materials.',
     features: ['Google Built-in', 'Pilot Assist', 'Harman Kardon Audio', 'Panoramic Roof', 'Pixel LED Headlights', 'Vegan Interior Options'],
     specs: {
