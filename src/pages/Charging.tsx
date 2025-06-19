@@ -138,13 +138,16 @@ const Charging: React.FC = () => {
             We believe in supporting all EV owners in Kenya's transition to sustainable transportation.
           </p>
           
+
           <Button 
             size="lg" 
             className="text-white font-semibold px-8 py-3 hover:opacity-90 transition-opacity"
-            style={{backgroundColor: '#000000'}}
+            style={{ backgroundColor: '#000000' }}
+            onClick={() => window.open("https://play.google.com/store/apps/details?id=com.namp.echarge", "_blank")}
           >
             Find Charging Stations
           </Button>
+
         </div>
       </section>
 
