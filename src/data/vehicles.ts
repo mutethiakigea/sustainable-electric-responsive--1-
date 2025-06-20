@@ -24,7 +24,7 @@ export const vehicles: Vehicle[] = [
     image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/MG4-Electric-1.jpg',
     range: '350-450 km',
     battery: '51-64 kWh',
-    price: 'From $25,000',
+    price: 'From $45,000',
     year: '2024',
     description: 'The MG4 is a revolutionary compact electric hatchback that redefines urban mobility. With its sleek aerodynamic design and cutting-edge technology, it delivers exceptional performance while maintaining zero emissions. Perfect for navigating Kenyan cities with style and efficiency.',
     features: ['Fast Charging', 'Smart Connectivity', 'Advanced Safety Systems', 'Spacious Interior', 'Regenerative Braking', 'Digital Dashboard', 'Wireless Phone Charging'],
@@ -91,9 +91,9 @@ export const vehicles: Vehicle[] = [
     }
   },
   {
-    id: 'hyundai-kona',
+    id: 'Renault Kangoo ZE',
     name: 'Renault Kangoo ZE',
-    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/kangoo.png',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/kangoo.avif',
     range: '415 km',
     battery: '64 kWh',
     price: 'From $32,000',
@@ -109,9 +109,9 @@ export const vehicles: Vehicle[] = [
     }
   },
   {
-    id: 'volkswagen-id4',
+    id: 'Renault Zoe',
     name: 'Renault Zoe',
-    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/Renault Zoe.jpg',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/Renault-ZOE-2019-AutoEV.jpg',
     range: '400 km',
     battery: '77 kWh',
     price: 'From $38,000',
@@ -128,13 +128,13 @@ export const vehicles: Vehicle[] = [
   },
   {
     id: 'audi-etron',
-    name: 'Renault Zoe',
-    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/Renault Zoe.jpg',
+    name: 'MG Windsor',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/MGWINDSOR.avif',
     range: '436 km',
     battery: '95 kWh',
     price: 'From $65,000',
     year: '2022',
-    description: 'The Renault Zoe delivers luxury and performance in an all-electric SUV package. With quattro all-wheel drive and premium Audi craftsmanship, it offers an uncompromising electric driving experience for discerning customers.',
+    description: 'The MG Windsor delivers luxury and performance in an all-electric SUV package. With quattro all-wheel drive and premium Audi craftsmanship, it offers an uncompromising electric driving experience for discerning customers.',
     features: ['Virtual Cockpit Plus', 'Matrix LED Headlights', 'Air Suspension', 'Bang & Olufsen Audio', 'MMI Touch Response', 'Audi Connect'],
     specs: {
       acceleration: '0-100 km/h in 5.7s',
@@ -145,14 +145,14 @@ export const vehicles: Vehicle[] = [
     }
   },
   {
-    id: 'polestar-2',
-    name: 'Polestar 2',
-    image: 'https://images.unsplash.com/photo-1617886903355-9354bb57751f?w=800&h=600&fit=crop',
+    id: 'MG Comet',
+    name: 'MG Comet',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/MG Comet.jpg',
     range: '470 km',
     battery: '78 kWh',
     price: 'From $45,000',
     year: '2018',
-    description: 'The Polestar 2 combines Scandinavian design with cutting-edge electric technology. This premium fastback offers exceptional performance, advanced Google-based infotainment, and sustainable luxury materials.',
+    description: 'The MG Comet combines Scandinavian design with cutting-edge electric technology. This premium fastback offers exceptional performance, advanced Google-based infotainment, and sustainable luxury materials.',
     features: ['Google Built-in', 'Pilot Assist', 'Harman Kardon Audio', 'Panoramic Roof', 'Pixel LED Headlights', 'Vegan Interior Options'],
     specs: {
       acceleration: '0-100 km/h in 4.7s',
@@ -163,14 +163,14 @@ export const vehicles: Vehicle[] = [
     }
   },
   {
-    id: 'polestar-2',
-    name: 'Polestar 2',
-    image: 'https://images.unsplash.com/photo-1617886903355-9354bb57751f?w=800&h=600&fit=crop',
+    id: 'Neta Aya SUV',
+    name: 'Neta Aya SUV',
+    image: 'https://drivezeewebsite.blob.core.windows.net/deaccesssconta/NETA_AYA_Half-Sugar_Milk_Tea_Black_1024x1024.webp',
     range: '470 km',
     battery: '78 kWh',
-    price: 'From $45,000',
-    year: '2018',
-    description: 'The Polestar 2 combines Scandinavian design with cutting-edge electric technology. This premium fastback offers exceptional performance, advanced Google-based infotainment, and sustainable luxury materials.',
+    price: 'From $40,000',
+    year: '2023',
+    description: 'The Neta Aya SUV combines Scandinavian design with cutting-edge electric technology. This premium fastback offers exceptional performance, advanced Google-based infotainment, and sustainable luxury materials.',
     features: ['Google Built-in', 'Pilot Assist', 'Harman Kardon Audio', 'Panoramic Roof', 'Pixel LED Headlights', 'Vegan Interior Options'],
     specs: {
       acceleration: '0-100 km/h in 4.7s',
